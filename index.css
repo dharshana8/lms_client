@@ -1,52 +1,28 @@
+.header-container {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 
-span{
-    color: blue;
-    font-weight: bold;
 }
-h1{
-    font-style: italic;
-    
+.head-container {
+    height: 70px;
 }
-h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-display: swap;
+.head-items {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: wheat;
 }
-h3{
-    background-color: wheat;
-   
+.logo-image {
+    height: 100%;
+    width: 70px;
+    padding-right: 1000px;
+    padding-bottom: 10px;
+    object-fit: contain;
 }
-#s1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: inherit;
-    
+.head-items li {
+    list-style: none;
+    font-size: 20px;
 }
-.s2{
-    font-family: 'Courier New', Courier, monospace;
-}/* index.css */
-span{
-    color: blue;
-    font-weight: bold;
-}
-h1{
-    font-style: italic;
-    text-decoration: underline;
-}
-h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-display: swap;
-}
-h3{
-    background-color: wheat;
-    padding: 10px;
-    border-radius: 8px;
-}
-#s1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: inherit;
-    font-size: 40px;
-}
-.s2{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 900;
-    font-size: 30px;
-} 
