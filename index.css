@@ -26,3 +26,50 @@
     list-style: none;
     font-size: 20px;
 }
+.head-items a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.head-items a:hover {
+    color: gold;
+    border-bottom: 2px solid gold;
+}
+
+.section {
+    text-align: center;
+    padding: 80px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+.section img {
+    width: 700px;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.box {
+    /*width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    background-image: url("https://media.zenfs.com/en/comingsoon_net_477/9e83f42ef8c72f33e1e0c2bbfb79b364");
+    background-position:center;
+    background-repeat: no-repeat;
+    transition:2s;
+    margin: 100px auto;*/
+    display:grid;
+    grid-template-columns:  auto 200px;
+grid-template-rows: 200px 200px;
+gap:25px;
+}
+
+.box:hover {
+    transform: rotate(360deg);
+    border-radius: 50%;
+    
+}
+
+.box div{
+background-color: aqua;
+}
