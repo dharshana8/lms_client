@@ -7,11 +7,20 @@ lightbut.addEventListener("click", () => setTheme("light") )
 darkbut.addEventListener("click", () => setTheme("dark") )
 
 
-const setTheme = (theme) => {
-    if(theme=="dark"){
-        body.classList.add("dark")
+
+
+const setTheme =(theme)=>{
+    if(theme ==="dark"){
+           body.classList.add("dark")
     }
     else{
-      body.classList.remove("dark")  
+          body.classList.remove("dark")
     }
+    sessionStorage.setItem("theme",theme)
+}
+
+const currentTheme=sessionStorage.getItem("theme");
+
+if (currentTheme === "dark"){
+    body.classList.add("dark")
 }
